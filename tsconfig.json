@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "nodenext",
+        "noImplicitAny": true,
+        "outDir": "./dist",
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*",
+    ],
+    "exclude": [
+        "./src/__tests__/**/*"
+    ]
+}
