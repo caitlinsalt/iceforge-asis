@@ -1,6 +1,6 @@
 {
   "name": "iceforge-asis",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "As-is plugin for the Iceforge static site generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "tsc --watch",
     "prepack": "tsc",
-    "lint": "eslint --ext .js,.ts --ignore-path .eslintignore",
+    "lint": "eslint",
     "test": "vitest"
   },
   "repository": {
@@ -28,14 +28,16 @@
   },
   "homepage": "https://github.com/caitlinsalt/iceforge-asis#readme",
   "dependencies": {
-    "iceforge": ">1.0.2"
+    "iceforge": "^1.3.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.18.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.0",
-    "typescript": "^5.5.4",
-    "vitest": "^2.0.5",
-    "winston": "^3.13.1"
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4",
+    "winston": "^3.19.0"
   }
 }
